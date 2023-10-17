@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: create
+  show-sql: true
+
+spring.datasource:
+  platform: postgres
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://192.168.0.15:5432/postgres
+  username: postgres
+  password: piloto_td_password
